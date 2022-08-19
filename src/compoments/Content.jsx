@@ -2,7 +2,7 @@ import React from "react";
 
 function Content() {
   return (
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section class="container mx-auto text-center py-6 mb-12 foot">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
         Contact us
       </h2>

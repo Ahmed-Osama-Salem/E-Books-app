@@ -26,7 +26,7 @@ function App() {
         saveBooks();
       }
     }
-    navigateBook("book-show");
+    navigateBook("/book-show");
   }
   return (
     <div className="app">

@@ -79,8 +79,8 @@
   width: 100%;
   height: 4000px;
   text-align: center;
-  background-color: aliceblue;
   color: #171212;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 .search-sec h1 {
@@ -116,6 +116,30 @@
   cursor: pointer;
 }
 
+.input-sec {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app input {
+  width: 60%;
+  font-size: 1.5rem;
+  margin: 20px auto;
+  padding: 10px 5px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  outline: none;
+  border: none;
+}
+.app input:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.app input:focus {
+  filter: drop-shadow(2px 4px 6px black);
+}
 @media only screen and (max-device-width: 600px) {
   .app {
     overflow-x: hidden;

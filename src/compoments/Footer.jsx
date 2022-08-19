@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="bg-white">
+    <footer class="bg-whitesmoke">
       <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="w-full flex flex-col md:flex-row py-6 footer-sec">
           <div class=" mb-6 text-black">
             <img src="images/book-logo.png" alt="book" className="w-10 flex" />
             <a

@@ -1,0 +1,180 @@
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.app {
+  background-color: whitesmoke;
+  scroll-behavior: smooth;
+}
+
+.book-area {
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.book-area h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.book-area p {
+  font-size: 2rem;
+}
+
+.book-view span {
+  font-weight: bold;
+}
+
+.book-view {
+  width: 33%;
+  flex: 0 0 33.33%;
+  transition: 0.3s ease-in-out;
+}
+
+.book-view:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.book-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.book-Route {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #171212;
+}
+
+.book-Route span {
+  font-weight: bolder;
+}
+
+.book-Route img {
+  height: 370px;
+}
+
+.book-render {
+  width: 70%;
+  filter: drop-shadow(2px 4px 6px black);
+  transition: 0.5s ease-in-out;
+}
+.book-render:hover {
+  transform: scale(1.05);
+}
+
+.search-sec {
+  width: 100%;
+  height: 4000px;
+  text-align: center;
+  background-color: aliceblue;
+  color: #171212;
+}
+
+.search-sec h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.search-sec input {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  margin: 15px 0;
+}
+
+.item-sec {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-card {
+  background-color: #e7dede;
+  margin: 10px auto;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.search-card img {
+  margin: auto;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .app {
+    overflow-x: hidden;
+  }
+
+  .book-card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .book-area h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .book-area p {
+    font-size: 1.2rem;
+  }
+
+  .book-view {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .book-card {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .book-card img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .paginate {
+    width: 80%;
+    padding: 20px 20px;
+    margin: 0 auto;
+  }
+
+  .cont-pageinate {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .page-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-render {
+    width: 70%;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
+  .book-Route {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .book-Route img {
+    height: 100px;
+  }
+}

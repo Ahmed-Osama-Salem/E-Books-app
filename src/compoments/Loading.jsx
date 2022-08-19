@@ -1,6 +1,7 @@
 import React from "react";
 
 function Loading() {
+  //this is loading component
   return (
     <div className="flex justify-center items-center mb-5">
       <div

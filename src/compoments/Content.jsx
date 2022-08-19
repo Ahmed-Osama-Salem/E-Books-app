@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Content() {
+  //This component for contact us section.
+  //use AOS package for scroll animation.
   useEffect(() => {
     AOS.init();
   }, []);

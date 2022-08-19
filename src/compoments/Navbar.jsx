@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const toggleUl = useRef();
-
+  // this component for navbar.
   const slideNavbar = () => {
     toggleUl.current.classList.toggle("hidden");
   };
-
+  // scroll function for navbar and its vanilla js .
   useEffect(() => {
     scroll();
   }, []);

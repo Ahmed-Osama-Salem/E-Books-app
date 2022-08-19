@@ -1,10 +1,11 @@
 import React from "react";
 
 function Footer() {
+  //This is footer section
   return (
-    <footer class="bg-whitesmoke">
-      <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6 footer-sec">
+    <footer className="bg-whitesmoke footersection sm:text-center">
+      <div class="container mx-auto px-8 ">
+        <div class="w-full flex flex-col md:flex-row py-6 ">
           <div class=" mb-6 text-black">
             <img src="images/book-logo.png" alt="book" className="w-10 flex" />
             <a

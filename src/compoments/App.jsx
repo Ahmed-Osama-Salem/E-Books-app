@@ -14,10 +14,10 @@ import { booksContext } from "./Store";
 function App() {
   let { item, isLoading, handelPageChange, saveBooks } =
     useContext(booksContext);
-
+  //This is the main component that contains all project or all other components.
   const navigateBook = useNavigate();
   const [bookFind, setBookFind] = useState("");
-
+  //arr is used to store every single book when click on read more.
   const arr = [];
   function showBooks(id) {
     for (let i = 0; i < item.length; i++) {
@@ -30,9 +30,11 @@ function App() {
     navigateBook("/bookshow");
   }
 
+  //for handel search bar.
   const handelSearch = (e) => {
     setBookFind(e.target.value);
   };
+
   return (
     <div className="app">
       <Navbar />

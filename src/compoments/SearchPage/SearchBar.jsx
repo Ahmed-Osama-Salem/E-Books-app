@@ -1,17 +1,20 @@
 import React, { useContext, useState } from "react";
 import { booksContext } from "../Store";
 import { useNavigate } from "react-router-dom";
+
 function SearchBar() {
   let { item } = useContext(booksContext);
   const [search, setSearch] = useState("");
-
+  //This component for search section in navbar navigate to search page.
   const handelInput = (e) => {
     setSearch(e.target.value);
   };
+
   const navBack = useNavigate();
   const navHome = () => {
     navBack("/");
   };
+
   return (
     <div className="search-sec">
       <h1>Search for books</h1>

@@ -140,6 +140,7 @@
 .app input:focus {
   filter: drop-shadow(2px 4px 6px black);
 }
+
 @media only screen and (max-device-width: 600px) {
   .app {
     overflow-x: hidden;
@@ -211,11 +212,12 @@
     margin-top: 100px;
   }
 
-  .footer-sec {
+  footer {
     text-align: center;
+    margin: 0 auto;
   }
 
-  .footer-sec img {
+  footer img {
     display: inline;
   }
 }

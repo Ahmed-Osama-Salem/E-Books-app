@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Content() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <section class="container mx-auto text-center py-6 mb-12 foot">

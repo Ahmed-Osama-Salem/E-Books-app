@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/E-Books-app/static/js/main.df13106a.js",
+    "main.js": "/E-Books-app/static/js/main.690f2e32.js",
     "index.html": "/E-Books-app/index.html",
-    "main.df13106a.js.map": "/E-Books-app/static/js/main.df13106a.js.map"
+    "main.690f2e32.js.map": "/E-Books-app/static/js/main.690f2e32.js.map"
   },
   "entrypoints": [
-    "static/js/main.df13106a.js"
+    "static/js/main.690f2e32.js"
   ]
 }

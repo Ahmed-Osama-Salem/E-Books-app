@@ -178,7 +178,7 @@
 
   .paginate {
     width: 80%;
-    padding: 20px 20px;
+    padding: 100px 20px;
     margin: 0 auto;
   }
 
@@ -204,5 +204,18 @@
 
   .book-Route img {
     height: 100px;
+  }
+
+  .foot {
+    height: 50vh;
+    margin-top: 100px;
+  }
+
+  .footer-sec {
+    text-align: center;
+  }
+
+  .footer-sec img {
+    display: inline;
   }
 }

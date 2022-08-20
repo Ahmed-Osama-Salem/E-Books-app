@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/E-Books-app/static/css/main.fc0706bd.css",
-    "main.js": "/E-Books-app/static/js/main.025489db.js",
+    "main.js": "/E-Books-app/static/js/main.102392e5.js",
     "index.html": "/E-Books-app/index.html",
     "main.fc0706bd.css.map": "/E-Books-app/static/css/main.fc0706bd.css.map",
-    "main.025489db.js.map": "/E-Books-app/static/js/main.025489db.js.map"
+    "main.102392e5.js.map": "/E-Books-app/static/js/main.102392e5.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0706bd.css",
-    "static/js/main.025489db.js"
+    "static/js/main.102392e5.js"
   ]
 }

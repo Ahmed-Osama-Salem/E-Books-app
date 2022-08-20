@@ -12,20 +12,13 @@ import { useNavigate } from "react-router-dom";
 import { booksContext } from "./Store";
 
 function App() {
-  let { item, isLoading, handelPageChange, saveBooks } =
+  let { item, isLoading, handelPageChange, saveBooks, isLoad } =
     useContext(booksContext);
   //This is the main component that contains all project or all other components.
   const navigateBook = useNavigate();
-  //set spinner on preload app
-  const [isLoad, setIsLoad] = useState(true);
-  let spinner = document.getElementById("spinner");
+
   const [bookFind, setBookFind] = useState("");
-  if (spinner) {
-    setTimeout(() => {
-      spinner.style.display = "none";
-      setIsLoad(false);
-    }, 1000);
-  }
+
   //arr is used to store every single book when click on read more.
   const arr = [];
   function showBooks(id) {

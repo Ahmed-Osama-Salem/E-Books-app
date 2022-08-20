@@ -44,10 +44,19 @@ export function BooksContextProvider(props) {
     //send book data to viewBooks
     setBookData(localData);
   };
+  //set spinner on preload app
+  const [isLoad, setIsLoad] = useState(true);
+  let spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setIsLoad(false);
+    }, 1000);
+  }
 
   return (
     <booksContext.Provider
-      value={{ item, isLoading, handelPageChange, bookData, saveBooks }}
+      value={{ item, isLoading, handelPageChange, bookData, saveBooks, isLoad }}
     >
       {props.children}
     </booksContext.Provider>

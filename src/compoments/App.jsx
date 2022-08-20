@@ -24,7 +24,7 @@ function App() {
     setTimeout(() => {
       spinner.style.display = "none";
       setIsLoad(false);
-    }, 2000);
+    }, 1000);
   }
   //arr is used to store every single book when click on read more.
   const arr = [];

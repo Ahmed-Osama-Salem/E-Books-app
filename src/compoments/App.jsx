@@ -89,18 +89,7 @@ function App() {
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       <span>Authors:</span> {book.authors[0]?.name}
                     </p>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      <span>Authors birth year : </span>
-                      {book.authors[0]?.birth_year}
-                    </p>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      <span>Authors death year : </span>
-                      {book.authors[0]?.death_year}
-                    </p>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      <span>Subjects : </span>
-                      {book.subjects}
-                    </p>
+
                     <a
                       className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 point"
                       onClick={() => showBooks(index)}
